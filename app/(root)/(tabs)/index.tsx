@@ -4,7 +4,7 @@ import { Text, View } from "react-native";
 export default function Index() {
   return (
     <View>
-      <Text className="font-bold text-3xl">Hello</Text>
+      <Text className="font-bold text-3xl font-rubik">Hello</Text>
       <Link href={"/sign-in"}>SignIn</Link>
       <Link href={"/explore"}>Explore</Link>
       <Link href={"/profile"}>Profile</Link>
