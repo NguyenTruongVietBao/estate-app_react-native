@@ -1,14 +1,14 @@
 import { Link } from "expo-router";
-import { Text, View } from "react-native";
+import { Text, SafeAreaView, ScrollView } from "react-native";
 
 export default function Index() {
   return (
-    <View>
-      <Text className="font-bold text-3xl font-rubik">Hello</Text>
+    <SafeAreaView>
+      <Text className="font-bold text-3xl font-rubik">Home</Text>
       <Link href={"/sign-in"}>SignIn</Link>
       <Link href={"/explore"}>Explore</Link>
       <Link href={"/profile"}>Profile</Link>
       <Link href={"/properties/1"}>Property details</Link>
-    </View>
+    </SafeAreaView>
   );
 }
